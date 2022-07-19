@@ -1,0 +1,66 @@
+.wo-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-name{
+    text-decoration: none;
+    color: #fff;
+}
+.cart-name:hover{
+    color: #fff;
+}
+table{
+    width: 100%;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between; 
+}
+.cart-remove{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+tr td{
+    color: #fff;
+}
+tr th{
+    color: #fff;
+}
+.cart-total h2{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+.bottom-row{
+    display: flex;
+    justify-content: flex-end;
+}
+.input-q input{
+    outline: 0;
+}
+.coupon-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dotted #fff;
+}
+.coupon input{
+    outline: 0;
+    padding: 10px;
+}
+.coupon button{
+    padding: 10px;
+}
+.update button{
+    padding: 10px;
+    text-transform: capitalize;
+}
+.pay-btn{
+    padding-left: 0;
+    margin-top: 50px;
+}
+.total tr{
+    border-bottom: 1px solid #fff;
+}

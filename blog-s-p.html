@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ourvcc</title>
+    
+    <link href="./frontend/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400;500&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link href="./frontend/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <header class="banner position-sticky top-0" style="z-index: 101;">
+    <nav class="navbar navbar-expand-lg bg-dark position-sticky p-4 top-0 start-0" style="--bs-bg-opacity: .4;">
+      <div class="container">
+        
+        <a class="text-white logomap mt-1" href="index.html"><img class="w-50" src="./frontend/img/Logo.svg"></a>
+        
+        <button class="navbar-toggler shadow-none border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link activea text-white" aria-current="page" href="index.html"><i class="bi bi-house"></i> Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="category.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-grid-1x2-fill"></i> Category
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark rounded-0" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="bi bi-box"></i> Product</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="bi bi-envelope"></i> Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="blog.html"><i class="bi bi-justify"></i> Blog</a>
+            </li>
+            
+
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"><i class="bi bi-person-fill"></i></a>
+                <ul class="dropdown-menu dropdown-menu-dark rounded-0" aria-labelledby="navbarDropdown2">
+                  <li class=""><a class="dropdown-item text-white" href="#"><i class="bi bi-person-fill"></i> Username</a></li>
+                  <li><a class="dropdown-item text-white" href="#"><i class="bi bi-arrow-bar-right"></i> Login</a></li>
+                  <li><a class="dropdown-item text-white" href="#"><i class="bi bi-arrow-bar-up"></i> Register</a></li>
+                  <li><a class="dropdown-item text-white" href="#"><i class="bi bi-arrow-bar-left"></i> Log out</a></li>
+                
+                </ul>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">
+                
+                <i class="bi bi-bag text-white"></i>
+                <sup class="text-white">3</sup>
+              </a>
+            </li>
+
+          </ul>
+          <div class="d-flex" role="search">
+
+            <a href="#" class="fs-4 me-1 my-icon">
+              <i class="bi bi-whatsapp whatsappicon"></i>
+            </a>
+            <a href="#" class="fs-4 me-1 my-icon">
+              <i class="bi bi-skype skypeicon"></i>
+            </a>
+            <a href="#" class="fs-4 me-1 my-icon">
+              <i class="bi bi-telegram telegramicon"></i>
+            </a>
+            <a href="#" class="fs-4 me-1 my-icon" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <i class="bi bi-search text-white"></i>
+            
+            </a>
+
+            
+            
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="breadcum py-4">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="text-white">Blog Details</h1>
+        <p class="text-white"><a class="cata-h"href="#">Home</a><span class="cata-h2">/</span>Blog</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="blog-section">
+    <div class="container">
+        <div class="row ">
+            <div class=" col-lg-8 blog-s-left">
+                <div class="blog-p">
+                    <img src="./frontend/img/Best-Cloud-Account-f.png" alt="">
+                </div>
+                <h2 class="text-white mt-4">Best  Cloud Accounts</h2>
+                <div class="des-1">
+                    <p>
+                        Cloud computing is a space in which data can be stored remotely and accessed via the internet or the cloud. For remote monitoring, maintenance, and backups, users typically pay a monthly fee or per-consumption charge.<br><br>
+
+                        There is nothing more frustrating than losing data or being afraid of losing it. Cloud storage is the solution. It offers many amazing features and capabilities that you can access remotely from your computer at home, at work, or on your smartphone or tablet while on the move.<br><br>
+
+                        Cloud storage is an easy and reliable way to store and retrieve information. There are many cloud storage options available on the market. Before you sign up to a cloud storage service, you must understand what cloud storage is and how they work. Let’s get started.
+                    </p>
+                    <h4>What is Cloud Storage?</h4>
+                    <p>Cloud storage is made up of large computing servers that are housed in data centers. These servers store data and make it available to users via the Internet. From anywhere on the planet, users can upload, store and retrieve data. Cloud technology means that you don’t need servers, external hard drives or memory sticks to transfer data from one place to the next.</p>
+                    <h4>How Cloud Storage Works</h4>
+                    <p>Cloud storage is easy to use. Cloud computing allows information to be stored in data centers around the globe and managed by third parties. Access to the data can be made through a web interface because it is stored on hosted servers.<br><br>
+
+                        Cloud storage is done using a chain of servers. This includes a master control server as well as other storage servers. All servers can be connected and used according to your requirements and specifications. You will be charged accordingly. Cloud storage is a great way to save money as you don’t need to invest as much on servers that are more powerful as you grow your business. Cloud storage is affordable because you only pay for the space that your data takes up in cloud storage.<br><br>
+                        
+                        Cloud storage supports many file types, so you can upload your files easily to it.
+                        
+                        After signing up, you can connect your cloud storage service to your smartphone, tablet, and other mobile devices. This allows for instant access for when you are on the move.<br><br>
+                        
+                        Cloud storage systems are unique in that you can upload files and make changes from anywhere on the planet without having to take your laptop.
+                        
+                        To download the application of your service provider, you only need an internet connection. Once you have created your account, log in and upload or download files.
+                        
+                        The cloud allows you to share your content with others or company team members. They can also be granted remote access to the files that you have shared with them.
+                        
+                        Your team members will work together on a project and can also edit documents that they have shared. Invite people to access your files and directories. Anyone with access will be able see the shared documents.<br><br>
+                        
+                        Because the cloud storage data is encrypted and protected by strong passwords, any unauthorized person cannot access files you have uploaded or exchanged. Cloud storage can also be used to retrieve files, directories, and documents that you have accidentally deleted.
+                        
+                        Cloud storage is a great example of technological innovation. It allows us to store and manage our content in a new way.<br><br>
+                        
+                        Anybody can store their data online without worrying about space. There is a monthly fee. It is easy to upload files and update them via the cloud. They are safe and secure, so you can access them with anyone you permit. You can access the files from any computer or mobile device, at any time, and any place.</p>
+                </div>
+
+            </div>
+            <div class="col-lg-4 blog-right">
+                <h5>Catagories</h5>
+                <ul class="cata-list">
+                    <li><a href="#">Advertising accounts</a></li>
+                    <li><a href="#">Could accounts</a></li>
+                    <li><a href="#">Developer accounts</a></li>
+                    <li><a href="#">Payment Getaway</a></li>
+                    <li><a href="#">Virtual credit accounts</a></li>
+                </ul>
+
+                <div class="recent-post">
+                    <h4>Recent post</h4>
+                    <ul class="recent-list">
+                        <li>
+                            <a href="#">24/7 support</a>
+                            <p>any type of help</p>
+                        </li>
+                        <li>
+                            <a href="#">Easy access</a>
+                            <p>user freindly</p>
+                        </li>
+                        <li>
+                            <a href="#">Easy to pay</a>
+                            <p>Easy payment method</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  
+
+    <footer class="footer">
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-md-3 mt-5 text-center">
+            <img class="w-50 mt-3" src="frontend/img/Logo.svg">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item mt-2">
+                <a class="text-white text_dcaretion" href="#">Email: test@email.com</a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="text-white text_dcaretion" href="#">Tel: +9823457238957</a>
+              </li>
+              
+            </ul>
+            <div class="text-center" role="search">
+            
+              <a href="#" class="text_dcaretion fs-4 me-2">
+                <i class="bi bi-whatsapp whatsappicon"></i>
+              </a>
+              <a href="#" class="text_dcaretion fs-4 me-2">
+                <i class="bi bi-skype skypeicon"></i>
+              </a>
+              <a href="#" class="text_dcaretion fs-4 me-2">
+                <i class="bi bi-telegram telegramicon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-4">
+            <h4 class="text-center text-white mt-4">Our Services</h4>
+            <ul class="navbar-nav mt-4 text-center">
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Ads accounts</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Cards</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Cloud accounts</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Payment Getaway</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Others Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Trading Accounts</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="col-md-3 mt-4">
+            <h4 class="text-center text-white mt-4">Information</h4>
+            <ul class="navbar-nav mt-4 text-center">
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Help & FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Refund-Policy</a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <div class="col-md-3 mt-4">
+            <h4 class="text-center text-white mt-4">Quick Link</h4>
+            <ul class="navbar-nav mt-4 text-center">
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Product</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Contact</a>
+              </li>
+          
+            </ul>
+          </div>
+        
+          <p class="text-center text-white mt-3">Copyrights@2022</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark rounded-0">
+          <form>
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="staticBackdropLabel">Search Product</h5>
+            <button type="button" class="bg-dark border-0" data-bs-dismiss="modal"><i class="bi bi-x-lg fs-3 text-white"></i></button>
+          </div>
+          <div class="modal-body border-0">
+            <div class="input-group input-group-lg border-0">
+              <input type="text" class="form-control bg-dark border-0 rounded-0" name="searchproduct" placeholder="Search Product">
+            </div>
+            
+          </div>
+          <div class="modal-footer border-0">
+            <button type="button" class="btn btn-secondary rounded-0" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary rounded-0"><i class="bi bi-search text-white"></i> Search</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    
+
+    
+    <script src="frontend/js/bootstrap.bundle.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".navbar").addClass("navanimation");
+        setTimeout(turnoffanimation, 2400)
+      });
+
+      function turnoffanimation() {
+        $(".navbar").removeClass("navanimation");
+      }
+      $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          if (scroll >=50) {
+            $(".navbar").addClass("navshadow");
+          }else{
+            $(".navbar").removeClass("navshadow");
+          }
+        
+
+          // if (scroll >=100) {
+          //   $(".navbar").addClass("navanimation");
+          // } else if(scroll <= 200) {
+          //   $(".navbar").removeClass("navanimation");
+          // }else{
+          //   $(".navbar").removeClass("navanimation");
+          // }
+        });
+    </script>
+
+  </body>
+</html>

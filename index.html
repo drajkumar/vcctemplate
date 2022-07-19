@@ -1,0 +1,869 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ourvcc</title>
+    
+    <link href="./frontend/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400;500&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link href="./frontend/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <header class="banner position-sticky top-0" style="z-index: 101;">
+    <nav class="navbar navbar-expand-lg bg-dark position-sticky p-4 top-0 start-0" style="--bs-bg-opacity: .1;">
+      <div class="container">
+        
+        <a class="text-white logomap mt-1" href="index.html"><img class="w-50" src="./frontend/img/Logo.svg"></a>
+        
+        <button class="navbar-toggler shadow-none border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link activea text-white" aria-current="page" href="#"><i class="bi bi-house"></i> Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="category.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-grid-1x2-fill"></i> Category
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark rounded-0" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="category.html">Action</a></li>
+                <li><a class="dropdown-item" href="category.html">Another action</a></li>
+                <li><a class="dropdown-item" href="category.html">Something else here</a></li>
+            
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="bi bi-box"></i> Product</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="bi bi-envelope"></i> Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="blog.html"><i class="bi bi-justify"></i> Blog</a>
+            </li>
+            
+
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"><i class="bi bi-person-fill"></i></a>
+                <ul class="dropdown-menu dropdown-menu-dark rounded-0" aria-labelledby="navbarDropdown2">
+                  <li class=""><a class="dropdown-item text-white" href="#"><i class="bi bi-person-fill"></i> Username</a></li>
+                  <li><a class="dropdown-item text-white" href="#"><i class="bi bi-arrow-bar-right"></i> Login</a></li>
+                  <li><a class="dropdown-item text-white" href="#"><i class="bi bi-arrow-bar-up"></i> Register</a></li>
+                  <li><a class="dropdown-item text-white" href="#"><i class="bi bi-arrow-bar-left"></i> Log out</a></li>
+                
+                </ul>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">
+                
+                <i class="bi bi-bag text-white"></i>
+                <sup class="text-white">3</sup>
+              </a>
+            </li>
+
+          </ul>
+          <div class="d-flex" role="search">
+
+            <a href="#" class="fs-4 my-icon">
+              <i class="bi bi-whatsapp whatsappicon"></i>
+            </a>
+            <a href="#" class="fs-4 me-1 my-icon">
+              <i class="bi bi-skype skypeicon"></i>
+            </a>
+            <a href="#" class="fs-4 me-1 my-icon">
+              <i class="bi bi-telegram telegramicon"></i>
+            </a>
+            <a href="#" class="fs-4 me-1 my-icon" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <i class="bi bi-search text-white"></i>
+            
+            </a>
+
+            
+            
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 bg-white rounded-4 headtextsection mb-5" style="--bs-bg-opacity: 0.1;">
+          <h1 class="text-center headtext">WELCOME TO THE BEST DIGITAL SERVICE PROVIDER</h1>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="productsection mb-3">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center text-white mt-5 mb-3">Popular Product</h1>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 animationproduct">
+          <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+            <a class="nav-link" href="">
+              <div class="img-wrapper">
+                <img src="frontend/products/one.png" class="card-img-top rounded-0" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <a class="nav-link" href="">
+                <h5 class="card-title text-white cardheadtext">Buy Chrome Developer Card</h5>
+              </a>
+              <div class="d-flex mb-1 pb-3">
+                <div class="">
+                  <p class="card-text text-white">$20.00
+                  </p>
+        
+                </div>
+                <div class="ms-auto">
+                  <a href="#" class="nav-link text-white">category</a>
+                </div>
+              </div>
+        
+              <div class="d-flex">
+                <div class="">
+                  <a href="#" class="nav-link text-white d-flex justify-content-star"><i class="bi bi-eye"></i>&nbsp;View</a>
+                </div>
+                <div class="ms-auto">
+                  <form>
+                    <button class="btn btn-sm btn-outline-light shadow-none rounded-0"><i class="bi bi-cart"></i> Add to
+                      cart</button>
+                  </form>
+                </div>
+              </div>
+        
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 animationproduct">
+          <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+            <a class="nav-link" href="">
+              <div class="img-wrapper">
+                <img src="frontend/products/one.png" class="card-img-top rounded-0" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <a class="nav-link" href=""><h5 class="card-title text-white cardheadtext">Buy Chrome Developer Card</h5></a>
+              <div class="d-flex mb-1 pb-3">
+                <div class="">
+                  <p class="card-text text-white">$20.00
+                  </p>
+        
+                </div>
+                <div class="ms-auto">
+                  <a href="#" class="nav-link text-white">category</a>
+                </div>
+              </div>
+        
+              <div class="d-flex">
+                <div class="">
+                  <a href="#" class="nav-link text-white d-flex justify-content-star"><i class="bi bi-eye"></i>&nbsp;View</a>
+                </div>
+                <div class="ms-auto">
+                  <form>
+                    <button class="btn btn-sm btn-outline-light shadow-none rounded-0"><i class="bi bi-cart"></i> Add to
+                      cart</button>
+                  </form>
+                </div>
+              </div>
+        
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 animationproduct">
+          <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+            <a class="nav-link" href="">
+              <div class="img-wrapper">
+                <img src="frontend/products/one.png" class="card-img-top rounded-0" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <a class="nav-link" href="">
+                <h5 class="card-title text-white cardheadtext">Buy Chrome Developer Card</h5>
+              </a>
+              <div class="d-flex mb-1 pb-3">
+                <div class="">
+                  <p class="card-text text-white">$20.00
+                  </p>
+        
+                </div>
+                <div class="ms-auto">
+                  <a href="#" class="nav-link text-white">category</a>
+                </div>
+              </div>
+        
+              <div class="d-flex">
+                <div class="">
+                  <a href="#" class="nav-link text-white d-flex justify-content-star"><i class="bi bi-eye"></i>&nbsp;View</a>
+                </div>
+                <div class="ms-auto">
+                  <form>
+                    <button class="btn btn-sm btn-outline-light shadow-none rounded-0"><i class="bi bi-cart"></i> Add to
+                      cart</button>
+                  </form>
+                  
+                </div>
+              </div>
+        
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 animationproduct">
+          <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+            <a class="nav-link" href="">
+              <div class="img-wrapper">
+                <img src="frontend/products/one.png" class="card-img-top rounded-0" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <a class="nav-link" href="">
+                <h5 class="card-title text-white cardheadtext">Buy Chrome Developer Card</h5>
+              </a>
+              <div class="d-flex mb-1 pb-3">
+                <div class="">
+                  <p class="card-text text-white">$20.00
+                  </p>
+        
+                </div>
+                <div class="ms-auto">
+                  <a href="#" class="nav-link text-white">category</a>
+                </div>
+              </div>
+        
+              <div class="d-flex">
+                <div class="">
+                  <a href="#" class="nav-link text-white d-flex justify-content-star"><i class="bi bi-eye"></i>&nbsp;View</a>
+                </div>
+                <div class="ms-auto">
+                  <form>
+                    <button class="btn btn-sm btn-outline-light shadow-none rounded-0"><i class="bi bi-cart"></i> Add to
+                      cart</button>
+                  </form>
+                </div>
+              </div>
+        
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 animationproduct">
+          <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+            <a class="nav-link" href="">
+              <div class="img-wrapper">
+                <img src="frontend/products/one.png" class="card-img-top rounded-0" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <a class="nav-link" href="">
+                <h5 class="card-title text-white cardheadtext">Buy Chrome Developer Card</h5>
+              </a>
+              <div class="d-flex mb-1 pb-3">
+                <div class="">
+                  <p class="card-text text-white">$20.00
+                  </p>
+        
+                </div>
+                <div class="ms-auto">
+                  <a href="#" class="nav-link text-white">category</a>
+                </div>
+              </div>
+        
+              <div class="d-flex">
+                <div class="">
+                  <a href="#" class="nav-link text-white d-flex justify-content-star"><i class="bi bi-eye"></i>&nbsp;View</a>
+                </div>
+                <div class="ms-auto">
+                  <form>
+                    <button class="btn btn-sm btn-outline-light shadow-none rounded-0"><i class="bi bi-cart"></i> Add to
+                      cart</button>
+                  </form>
+                </div>
+              </div>
+        
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 animationproduct">
+          <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+            <a class="nav-link" href="">
+              <div class="img-wrapper">
+                <img src="frontend/products/one.png" class="card-img-top rounded-0" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <a class="nav-link" href="">
+                <h5 class="card-title text-white cardheadtext">Buy Chrome Developer Card</h5>
+              </a>
+              <div class="d-flex mb-1 pb-3">
+                <div class="">
+                  <p class="card-text text-white">$20.00
+                  </p>
+        
+                </div>
+                <div class="ms-auto">
+                  <a href="#" class="nav-link text-white">category</a>
+                </div>
+              </div>
+        
+              <div class="d-flex">
+                <div class="">
+                  <a href="#" class="nav-link text-white d-flex justify-content-star"><i class="bi bi-eye"></i>&nbsp;View</a>
+                </div>
+                <div class="ms-auto">
+                  <form>
+                    <button class="btn btn-sm btn-outline-light shadow-none rounded-0"><i class="bi bi-cart"></i> Add to
+                      cart</button>
+                  </form>
+                </div>
+              </div>
+        
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 animationproduct">
+          <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+            <a class="nav-link" href="">
+              <div class="img-wrapper">
+                <img src="frontend/products/one.png" class="card-img-top rounded-0" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <a class="nav-link" href="">
+                <h5 class="card-title text-white cardheadtext">Buy Chrome Developer Card</h5>
+              </a>
+              <div class="d-flex mb-1 pb-3">
+                <div class="">
+                  <p class="card-text text-white">$20.00
+                  </p>
+        
+                </div>
+                <div class="ms-auto">
+                  <a href="#" class="nav-link text-white">category</a>
+                </div>
+              </div>
+        
+              <div class="d-flex">
+                <div class="">
+                  <a href="#" class="nav-link text-white d-flex justify-content-star"><i class="bi bi-eye"></i>&nbsp;View</a>
+                </div>
+                <div class="ms-auto">
+                  <form>
+                    <button class="btn btn-sm btn-outline-light shadow-none rounded-0"><i class="bi bi-cart"></i> Add to
+                      cart</button>
+                  </form>
+                </div>
+              </div>
+        
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 animationproduct">
+          <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+            <a class="nav-link" href="">
+              <div class="img-wrapper">
+                <img src="frontend/products/one.png" class="card-img-top rounded-0" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <a class="nav-link" href="">
+                <h5 class="card-title text-white cardheadtext">Buy Chrome Developer Card</h5>
+              </a>
+              <div class="d-flex mb-1 pb-3">
+                <div class="">
+                  <p class="card-text text-white">$20.00
+                  </p>
+        
+                </div>
+                <div class="ms-auto">
+                  <a href="#" class="nav-link text-white">category</a>
+                </div>
+              </div>
+        
+              <div class="d-flex">
+                <div class="">
+                  <a href="#" class="nav-link text-white d-flex justify-content-star"><i class="bi bi-eye"></i>&nbsp;View</a>
+                </div>
+                <div class="ms-auto">
+                  <form>
+                    <button class="btn btn-sm btn-outline-light shadow-none rounded-0"><i class="bi bi-cart"></i> Add to
+                      cart</button>
+                  </form>
+                </div>
+              </div>
+        
+        
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="productsection mb-4 mt-5">
+    <div class="container">
+      <div class="row mt-5">
+        <h1 class="text-center text-white mt-5 mb-5">Our Top Category</h1>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground rounded-0" style="max-width: 100%; height:150px;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center mt-2"><i class="bi bi-bicycle"></i></h1>
+              <h5 class="card-title text-center cardcoustom-title">ADVERTISING ACCOUNTS</h5>
+              
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground rounded-0" style="max-width: 100%; height:150px;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center mt-2"><i class="bi bi-cloud-hail"></i></h1>
+              <h5 class="card-title text-center cardcoustom-title">CLOUD ACCOUNTS</h5>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground rounded-0" style="max-width: 100%; height:150px;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center mt-2"><i class="bi bi-people"></i></h1>
+              <h5 class="card-title text-center cardcoustom-title">CPA ACCOUNTS</h5>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground rounded-0" style="max-width: 100%; height:150px;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center mt-2"><i class="bi bi-graph-up-arrow"></i></h1>
+              <h5 class="card-title text-center cardcoustom-title">TRADING ACCOUNTS</h5>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground rounded-0" style="max-width: 100%; height:150px;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center mt-2"><i class="bi bi-wallet"></i></h1>
+              <h5 class="card-title text-center cardcoustom-title">PAYMENT GATEWAY ACCOUNTS</h5>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground rounded-0" style="max-width: 100%; height:150px;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center mt-2"><i class="bi bi-credit-card-2-front-fill"></i></h1>
+              <h5 class="card-title text-center cardcoustom-title">VIRTUAL CREDIT CARD</h5>
+            </div>
+          </div>
+  
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground rounded-0" style="max-width: 100%; height:150px;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center mt-2"><i class="bi bi-bounding-box"></i></h1>
+              <h5 class="card-title text-center cardcoustom-title">OTHER’S ACCOUNTS</h5>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground rounded-0" style="max-width: 100%; height:150px;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center mt-2"><i class="bi bi-credit-card-2-back"></i></h1>
+              <h5 class="card-title text-center cardcoustom-title">BUY VCC INSTANT NOW</h5>
+            </div>
+          </div>
+        
+        </div>
+  
+  
+  
+  
+      </div>
+    </div>
+  </section>
+
+  <section class="productsection mb-4 mt-5">
+    <div class="container">
+      <div class="row mt-5">
+        <h1 class="text-center text-white mt-5">WHY MOREVCC IS THE BEST FOR BUYING ANY ACCOUNT SERVICES?</h1>
+        <p class="text-white text-center mb-5">You know that a lot of agencies provide this service, but know our service features so that you can compare them with
+        others.</p>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground" style="max-width: 100%;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center"><i class="bi bi-mortarboard-fill"></i></h1>
+              <h5 class="card-title text-center">PREMIUM QUALITY</h5>
+            </div>
+          </div>
+          
+        </div>
+  
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground" style="max-width: 100%;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center"><i class="bi bi-lock"></i></h1>
+              <h5 class="card-title text-center">SAFETY GUARANTEE</h5>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground" style="max-width: 100%;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center "><i class="bi bi-truck"></i></h1>
+              <h5 class="card-title text-center">FAST DELIVERY</h5>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground" style="max-width: 100%;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center"><i class="bi bi-bookmark-star"></i></h1>
+              <h5 class="card-title text-center">100% VERIFIED</h5>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground" style="max-width: 100%;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center"><i class="bi bi-arrow-left-right"></i></h1>
+              <h5 class="card-title text-center">REPLACEMENT</h5>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-3 animationproduct">
+          <div class="card text-bg-dark cardbackground" style="max-width: 100%;">
+            <!-- <div class="card-header text-white text-center"></div> -->
+            <div class="card-body">
+              <h1 class="text-center"><i class="bi bi-headset"></i></h1>
+              <h5 class="card-title text-center">PREMIUM SUPPORT</h5>
+            </div>
+          </div>
+        
+        </div>
+  
+  
+  
+  
+      </div>
+    </div>
+  </section>
+
+  <section class="productsection mb-4 mt-4">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center text-white mt-5">What is Lorem Ipsum?</h1>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+          <img class="mt-4 img-fluid" src="./frontend/img/boost_img-1.png">
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+          <h2 class="text-info mt-4">ORDER DIRECTLY</h2>
+          <p class="text-white mt-2 mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+          recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+          <h2 class="text-info mt-4">ORDER DIRECTLY</h2>
+          <p class="text-white mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+            more
+            recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+  
+        
+  
+  
+      </div>
+    </div>
+  </section>
+
+  
+
+
+    <section class="productsection mb-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center text-white mt-5">Recent Blog</h1>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 animationproduct">
+            <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+              <img src="frontend/blog/blogone.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white">Card title</h5>
+                <p class="card-text text-white">$20.00
+                </p>
+                <a href="#" class="nav-link text-white"><i class="bi bi-eye"></i> View more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 animationproduct">
+            <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+              <img src="frontend/blog/blogthree.png" class="card-img-top rounded-0" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white">Card title</h5>
+                <p class="card-text text-white">$20.00
+                </p>
+                <a href="#" class="nav-link text-white"><i class="bi bi-eye"></i> View more</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 animationproduct">
+            <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+              <img src="frontend/blog/blogtwo.png" class="card-img-top rounded-0" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-white">Card title</h5>
+                <p class="card-text text-white">$20.00
+                </p>
+                <a href="#" class="nav-link text-white"><i class="bi bi-eye"></i> View more</a>
+          
+              </div>
+            </div>
+          </div>
+    
+    
+        </div>
+      </div>
+    </section>
+    
+
+    <footer class="footer">
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-md-3 mt-5 text-center">
+            <img class="w-50 mt-3" src="frontend/img/Logo.svg">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item mt-2">
+                <a class="text-white text_dcaretion" href="#">Email: test@email.com</a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="text-white text_dcaretion" href="#">Tel: +9823457238957</a>
+              </li>
+              
+            </ul>
+            <div class="text-center" role="search">
+            
+              <a href="#" class="text_dcaretion fs-4 me-2">
+                <i class="bi bi-whatsapp whatsappicon"></i>
+              </a>
+              <a href="#" class="text_dcaretion fs-4 me-2">
+                <i class="bi bi-skype skypeicon"></i>
+              </a>
+              <a href="#" class="text_dcaretion fs-4 me-2">
+                <i class="bi bi-telegram telegramicon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-4">
+            <h4 class="text-center text-white mt-4 p-0">Our Services</h4>
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Ads accounts</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Cards</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Cloud accounts</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Payment Getaway</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Others Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white text_dcaretion" href="#">Trading Accounts</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="col-md-3 mt-4">
+            <h4 class="text-center text-white mt-4">Information</h4>
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Help & FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Refund-Policy</a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <div class="col-md-3 mt-4">
+            <h4 class="text-center text-white mt-4">Quick Link</h4>
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Product</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="text_dcaretion text-white" href="#">Contact</a>
+              </li>
+          
+            </ul>
+          </div>
+        
+          <p class="text-center text-white mt-3">Copyrights@2022</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark rounded-0">
+          <form>
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="staticBackdropLabel">Search Product</h5>
+            <button type="button" class="bg-dark border-0" data-bs-dismiss="modal"><i class="bi bi-x-lg fs-3 text-white"></i></button>
+          </div>
+          <div class="modal-body border-0">
+            <div class="input-group input-group-lg border-0">
+              <input type="text" class="form-control bg-dark border-0 rounded-0" name="searchproduct" placeholder="Search Product">
+            </div>
+            
+          </div>
+          <div class="modal-footer border-0">
+            <button type="button" class="btn btn-secondary rounded-0" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary rounded-0"><i class="bi bi-search text-white"></i> Search</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    
+
+    
+    <script src="frontend/js/bootstrap.bundle.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="frontend/js/anime.min.js"></script>
+    <script src="frontend/js/myanimation.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".navbar").addClass("navanimation");
+        // anime({
+        //   targets: '.headtext',
+        //   translateX: anime.stagger(10, { grid: [14, 5], from: 'center', axis: 'x' }),
+        //   translateY: anime.stagger(10, { grid: [14, 5], from: 'center', axis: 'y' }),
+        //   rotateZ: anime.stagger([0, 90], { grid: [14, 5], from: 'center', axis: 'x' }),
+        //   delay: anime.stagger(200, { grid: [14, 5], from: 'center' }),
+        //   easing: 'easeInOutQuad'
+        // });
+        
+        setTimeout(turnoffanimation, 2400)
+      });
+
+      function turnoffanimation() {
+        $(".navbar").removeClass("navanimation");
+      }
+      $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          console.log(scroll);
+          if (scroll >=50) {
+            $(".navbar").addClass("navshadow");
+            $(".navbar").removeAttr("style");
+          }else{
+            $(".navbar").removeClass("navshadow");
+            $(".navbar").attr("style", "--bs-bg-opacity: .1");
+            
+          }
+        
+
+          // if (Math.floor(scroll) >=500) {
+          //   anime({
+          //     targets: '.animationproduct',
+          //     scale: [
+          //       { value: .7, easing: 'easeOutSine', duration: 500 },
+          //       { value: 1, easing: 'easeInOutQuad', duration: 1200 }
+          //     ],
+          //     delay: anime.stagger(200, { grid: [14, 10], from: 'center' })
+          //   });
+          // }else{
+          //   $(".navbar").removeClass("navanimation");
+          // }
+        });
+
+        
+    </script>
+
+  </body>
+</html>
