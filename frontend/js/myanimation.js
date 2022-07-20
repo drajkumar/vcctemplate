@@ -15,4 +15,4 @@ function vccreveal() {
 }
 
 window.addEventListener("scroll", vccreveal);
-window.addEventListener("load", vccreveal);
+// window.addEventListener("load", vccreveal);
