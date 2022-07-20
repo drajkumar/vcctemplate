@@ -381,7 +381,7 @@ textarea{
 	color:#ffffff;
 }
 .nav-link.active{
-	color: #000;
+	color: #000 !important;
 }
 .nav-link:focus,
 
