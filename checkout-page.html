@@ -15,8 +15,8 @@
   </head>
   <body>
 
-  <header class="banner position-sticky top-0" style="z-index: 101;">
-    <nav class="navbar navbar-expand-lg bg-dark position-sticky p-4 top-0 start-0" style="--bs-bg-opacity: .4;">
+  <header class="position-sticky top-0" style="z-index: 101;">
+    <nav class="navbar navbar-expand-lg topbar-bg position-sticky p-4 top-0 start-0" style="--bs-bg-opacity: .4;">
       <div class="container">
         
         <a class="text-white logomap mt-1" href="index.html"><img class="w-50" src="./frontend/img/Logo.svg"></a>
@@ -107,20 +107,24 @@
         <h2 class="text-white text-center py-4 Checkout">Checkout</h2>
         <div class="col-lg-7 check-left">
             <h3>Biling-address</h3>
-            <div class="name">
+            <div class="name mb-3">
                 <label for="#">Name:</label>
-                <input type="text">
+                <input type="text" class="form-control rounded-0" name="name" placeholder="Enter Name">
             </div>
-            <div class="email">
+            <div class="email mb-3">
                 <label for="">
                     Email:
                 </label>
-                <input type="email">
+                <input type="email" class="form-control rounded-0" name="email" placeholder="Enter Email">
+            </div>
+            <div class="name mb-3">
+              <label for="#">Phone:</label>
+              <input type="text" class="form-control rounded-0" name="phone" placeholder="Enter Phone">
             </div>
             <div class="add-information">
                 <h4>Additional information</h4>
-                <label for="#">Oder notes</label>
-                <textarea placeholder="Notes about your order"></textarea>
+                <label for="#">Oder notes (optional)</label>
+                <textarea class="form-control rounded-0" name="note" rows="3" placeholder="Notes about your order"></textarea>
             </div>
         </div>
         <div class="col-lg-5 check-right py-5">
@@ -144,7 +148,7 @@
                 </li>
             </ul>
             <div class="bit-coin">
-                <p>Bitcoin & other cryptocurrencies:</p>
+                <p class="ms-2">Bitcoin & other cryptocurrencies:</p>
                 <div class="coin-img">
                     <li><img src="./frontend/img/bitcoin.png" alt=""></li>  
                     <li><img src="./frontend/img/bitcoincash.png" alt=""></li>
@@ -171,21 +175,21 @@
  
 
     <footer class="footer">
-      <div class="container mt-3">
+      <div class="container mt-1 py-5">
         <div class="row">
-          <div class="col-md-3 mt-5 text-center">
+          <div class="col-md-3 text-center">
             <img class="w-50 mt-3" src="frontend/img/Logo.svg">
             <ul class="navbar-nav text-center">
               <li class="nav-item mt-2">
                 <a class="text-white text_dcaretion" href="#">Email: test@email.com</a>
               </li>
-              <li class="nav-item mt-2">
+              <li class="nav-item mt-1">
                 <a class="text-white text_dcaretion" href="#">Tel: +9823457238957</a>
               </li>
-              
+    
             </ul>
             <div class="text-center" role="search">
-            
+    
               <a href="#" class="text_dcaretion fs-4 me-2">
                 <i class="bi bi-whatsapp whatsappicon"></i>
               </a>
@@ -197,10 +201,10 @@
               </a>
             </div>
           </div>
-
-          <div class="col-md-3 mt-4">
-            <h4 class="text-center text-white mt-4">Our Services</h4>
-            <ul class="navbar-nav mt-4 text-center">
+    
+          <div class="col-md-3">
+            <h5 class="text-center text-white mt-2 p-0">OUR SERVICES</h5>
+            <ul class="navbar-nav text-center">
               <li class="nav-item">
                 <a class="text-white text_dcaretion" href="#">Ads accounts</a>
               </li>
@@ -221,41 +225,47 @@
               </li>
             </ul>
           </div>
-
-
-          <div class="col-md-3 mt-4">
-            <h4 class="text-center text-white mt-4">Information</h4>
-            <ul class="navbar-nav mt-4 text-center">
+    
+    
+          <div class="col-md-3">
+            <h5 class="text-center text-white mt-2">INFORMATION</h5>
+            <ul class="navbar-nav text-center">
               <li class="nav-item">
                 <a class="text_dcaretion text-white" href="#">Help & FAQ</a>
               </li>
               <li class="nav-item">
                 <a class="text_dcaretion text-white" href="#">Refund-Policy</a>
               </li>
-              
+    
             </ul>
           </div>
-
-          <div class="col-md-3 mt-4">
-            <h4 class="text-center text-white mt-4">Quick Link</h4>
-            <ul class="navbar-nav mt-4 text-center">
-              <li class="nav-item">
-                <a class="text_dcaretion text-white" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="text_dcaretion text-white" href="#">Product</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="text_dcaretion text-white" href="#">Contact</a>
-              </li>
-          
-            </ul>
+    
+          <div class="col-md-3">
+            <h5 class="text-center text-white mt-2">PAYMENT METHOD</h5>
+            <div class="bit-coin">
+              <div class="coin-img2 justify-content-center">
+                <li><img src="./frontend/img/bitcoin.png" alt=""></li>
+                <li><img src="./frontend/img/bitcoincash.png" alt=""></li>
+                <li> <img src="./frontend/img/dai.png" alt=""></li>
+                <li> <img src="./frontend/img/dogecoin.png" alt=""></li>
+                <li><img src="./frontend/img/ethereum.png" alt=""></li>
+                <li><img src="./frontend/img/litecoin.png" alt=""></li>
+    
+              </div>
+            </div>
           </div>
-        
-          <p class="text-center text-white mt-3">Copyrights@2022</p>
+    
+    
         </div>
+    
       </div>
+    
+      <div class="footer2 py-3">
+        <p class="text-center text-white mt-3">Myvcccard Copyrights@2022</p>
+      </div>
+    
+      </div>
+    
     </footer>
 
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -287,33 +297,47 @@
     
     <script src="frontend/js/bootstrap.bundle.min.js" ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $(".navbar").addClass("navanimation");
-        setTimeout(turnoffanimation, 2400)
-      });
+        <script>
+          $(document).ready(function () {
+            $(".navbar").addClass("navanimation");
+            // anime({
+            //   targets: '.headtext',
+            //   translateX: anime.stagger(10, { grid: [14, 5], from: 'center', axis: 'x' }),
+            //   translateY: anime.stagger(10, { grid: [14, 5], from: 'center', axis: 'y' }),
+            //   rotateZ: anime.stagger([0, 90], { grid: [14, 5], from: 'center', axis: 'x' }),
+            //   delay: anime.stagger(200, { grid: [14, 5], from: 'center' }),
+            //   easing: 'easeInOutQuad'
+            // });
 
-      function turnoffanimation() {
-        $(".navbar").removeClass("navanimation");
-      }
-      $(window).scroll(function () {
-          var scroll = $(window).scrollTop();
-          if (scroll >=50) {
-            $(".navbar").addClass("navshadow");
-          }else{
-            $(".navbar").removeClass("navshadow");
+            setTimeout(turnoffanimation, 2400)
+          });
+
+          function turnoffanimation() {
+            $(".navbar").removeClass("navanimation");
           }
-        
+          $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
 
-          // if (scroll >=100) {
-          //   $(".navbar").addClass("navanimation");
-          // } else if(scroll <= 200) {
-          //   $(".navbar").removeClass("navanimation");
-          // }else{
-          //   $(".navbar").removeClass("navanimation");
-          // }
-        });
-    </script>
+            if (scroll >= 50) {
+              $(".navbar").addClass("navshadow");
+              $(".navbar").addClass("topbar-bg-offset");
+            } else if (Math.floor(scroll) < 50) {
+              $(".navbar").removeClass("navshadow");
+              $(".navbar").removeClass("topbar-bg-offset");
+
+            } else {
+              $(".navbar").removeClass("navshadow");
+              $(".navbar").removeClass("topbar-bg-offset");
+
+            }
+          });
+
+          if (Math.floor(window.pageYOffset) >= 50) {
+            $(".navbar").addClass("navshadow");
+            $(".navbar").removeClass("topbar-bg-offset");
+          }
+
+        </script>
 
   </body>
 </html>

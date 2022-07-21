@@ -16,7 +16,7 @@
   <body>
 
   <header class="position-sticky top-0" style="z-index: 101;">
-    <nav class="navbar navbar-expand-lg bg-dark position-sticky p-4 top-0 start-0" style="--bs-bg-opacity: .1;">
+    <nav class="navbar navbar-expand-lg topbar-bg position-sticky p-4 top-0 start-0">
       <div class="container">
   
         <a class="text-white logomap mt-1" href="index.html"><img class="w-50" src="./frontend/img/Logo.svg"></a>
@@ -71,7 +71,7 @@
   
   
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">
+              <a class="nav-link text-white" href="cart.html">
   
                 <i class="bi bi-bag text-white"></i>
                 <sup class="text-white">3</sup>
@@ -292,7 +292,7 @@
                     <h5 class="card-title text-center mt-2">Be the first to review “Buy Chrome Developer Card ”</h5>
                     <h6 class="card-subtitle mb-4 text-center">Your email address will not be published. Required fields are</h6>
                     <form id="reviewform">
-                      <div class="form-group col-lg-12">
+                      <div class="form-group col-lg-12 mb-2">
                         <div class="review-stars">
                           <label>Ratings:</label>
                           <i class="bi bi-star retingstarget" aria-hidden="true" id="st1" data-number="1"></i>
@@ -303,7 +303,7 @@
                         </div>
                       
                       </div>
-                      <div class="mb-3 mt-2">
+                      <div class="mb-4 mt-2">
                         <label for="review" class="form-label fs-6">Your review <sup>*</sup></label>
                         <textarea class="form-control rounded-0" id="review" rows="3"></textarea>
                       </div>
@@ -319,7 +319,7 @@
                           <input type="email" class="form-control rounded-0" name="email" placeholder="Enter email">
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-sm btn-outline-light rounded-0 mt-4">Submit</button>
+                      <button type="submit" class="btn btn-outline-light rounded-0 mt-4">Submit</button>
                     </form>
                   </div>
                 </div>
@@ -477,21 +477,21 @@
     </div>
   
     <footer class="footer">
-      <div class="container mt-3">
+      <div class="container mt-1 py-5">
         <div class="row">
-          <div class="col-md-3 mt-5 text-center">
+          <div class="col-md-3 text-center">
             <img class="w-50 mt-3" src="frontend/img/Logo.svg">
             <ul class="navbar-nav text-center">
               <li class="nav-item mt-2">
                 <a class="text-white text_dcaretion" href="#">Email: test@email.com</a>
               </li>
-              <li class="nav-item mt-2">
+              <li class="nav-item mt-1">
                 <a class="text-white text_dcaretion" href="#">Tel: +9823457238957</a>
               </li>
-
+    
             </ul>
             <div class="text-center" role="search">
-
+    
               <a href="#" class="text_dcaretion fs-4 me-2">
                 <i class="bi bi-whatsapp whatsappicon"></i>
               </a>
@@ -503,9 +503,9 @@
               </a>
             </div>
           </div>
-
-          <div class="col-md-3 mt-4">
-            <h4 class="text-center text-white mt-4 p-0">Our Services</h4>
+    
+          <div class="col-md-3">
+            <h5 class="text-center text-white mt-2 p-0">OUR SERVICES</h5>
             <ul class="navbar-nav text-center">
               <li class="nav-item">
                 <a class="text-white text_dcaretion" href="#">Ads accounts</a>
@@ -527,10 +527,10 @@
               </li>
             </ul>
           </div>
-
-
-          <div class="col-md-3 mt-4">
-            <h4 class="text-center text-white mt-4">Information</h4>
+    
+    
+          <div class="col-md-3">
+            <h5 class="text-center text-white mt-2">INFORMATION</h5>
             <ul class="navbar-nav text-center">
               <li class="nav-item">
                 <a class="text_dcaretion text-white" href="#">Help & FAQ</a>
@@ -538,30 +538,36 @@
               <li class="nav-item">
                 <a class="text_dcaretion text-white" href="#">Refund-Policy</a>
               </li>
-
+    
             </ul>
           </div>
-
-          <div class="col-md-3 mt-4">
-            <h4 class="text-center text-white mt-4">Quick Link</h4>
-            <ul class="navbar-nav text-center">
-              <li class="nav-item">
-                <a class="text_dcaretion text-white" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="text_dcaretion text-white" href="#">Product</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="text_dcaretion text-white" href="#">Contact</a>
-              </li>
-
-            </ul>
+    
+          <div class="col-md-3">
+            <h5 class="text-center text-white mt-2">PAYMENT METHOD</h5>
+            <div class="bit-coin">
+              <div class="coin-img2 justify-content-center">
+                <li><img src="./frontend/img/bitcoin.png" alt=""></li>
+                <li><img src="./frontend/img/bitcoincash.png" alt=""></li>
+                <li> <img src="./frontend/img/dai.png" alt=""></li>
+                <li> <img src="./frontend/img/dogecoin.png" alt=""></li>
+                <li><img src="./frontend/img/ethereum.png" alt=""></li>
+                <li><img src="./frontend/img/litecoin.png" alt=""></li>
+    
+              </div>
+            </div>
           </div>
-
-          <p class="text-center text-white mt-3">Copyrights@2022</p>
+    
+    
         </div>
+    
       </div>
+    
+      <div class="footer2 py-3">
+        <p class="text-center text-white mt-3">Myvcccard Copyrights@2022</p>
+      </div>
+    
+      </div>
+    
     </footer>
 
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -609,53 +615,56 @@
 
       $(window).scroll(function () {
        var scroll = $(window).scrollTop();
-        if (Math.floor(scroll) >= 50) {
-          $(".navbar").addClass("navshadow");
-          $(".navbar").removeAttr("style");
-        } else if(Math.floor(scroll) < 50) {
-          $(".navbar").removeClass("navshadow");
-          $(".navbar").attr("style", "--bs-bg-opacity: .1");
 
-        }else{
+        if (scroll >= 50) {
           $(".navbar").addClass("navshadow");
-          $(".navbar").removeAttr("style");
+          $(".navbar").addClass("topbar-bg-offset");
+        } else if (Math.floor(scroll) < 50) {
+          $(".navbar").removeClass("navshadow");
+          $(".navbar").removeClass("topbar-bg-offset");
+
+        } else {
+          $(".navbar").removeClass("navshadow");
+          $(".navbar").removeClass("topbar-bg-offset");
+
         }
       });
-      if(Math.floor(window.pageYOffset) >= 50){
+
+      if (Math.floor(window.pageYOffset) >= 50) {
         $(".navbar").addClass("navshadow");
-        $(".navbar").removeAttr("style");
+        $(".navbar").removeClass("topbar-bg-offset");
       }
 
       $("#st1").click(function () {
-          $(".retingstarget").css("color", "#c4c2cb");
-          $("#st1").css("color", "#ff5421");
-          var reatnum = $(this).attr("data-number");
-          $("#rateing").val(reatnum);
-        });
-        $("#st2").click(function () {
-          $(".retingstarget").css("color", "#c4c2cb");
-          $("#st1, #st2").css("color", "#ff5421");
-          var reatnum = $(this).attr("data-number");
-          $("#rateing").val(reatnum);
-        });
-        $("#st3").click(function () {
-          $(".retingstarget").css("color", "#c4c2cb")
-          $("#st1, #st2, #st3").css("color", "#ff5421");
-          var reatnum = $(this).attr("data-number");
-          $("#rateing").val(reatnum);
-        });
-        $("#st4").click(function () {
-          $(".retingstarget").css("color", "#c4c2cb");
-          $("#st1, #st2, #st3, #st4").css("color", "#ff5421");
-          var reatnum = $(this).attr("data-number");
-          $("#rateing").val(reatnum);
-        });
-        $("#st5").click(function () {
-          $(".retingstarget").css("color", "#c4c2cb");
-          $("#st1, #st2, #st3, #st4, #st5").css("color", "#ff5421");
-          var reatnum = $(this).attr("data-number");
-          $("#rateing").val(reatnum);
-        });
+        $(".retingstarget").css("color", "#c4c2cb");
+        $("#st1").css("color", "#ff5421");
+        var reatnum = $(this).attr("data-number");
+        $("#rateing").val(reatnum);
+      });
+      $("#st2").click(function () {
+        $(".retingstarget").css("color", "#c4c2cb");
+        $("#st1, #st2").css("color", "#ff5421");
+        var reatnum = $(this).attr("data-number");
+        $("#rateing").val(reatnum);
+      });
+      $("#st3").click(function () {
+        $(".retingstarget").css("color", "#c4c2cb")
+        $("#st1, #st2, #st3").css("color", "#ff5421");
+        var reatnum = $(this).attr("data-number");
+        $("#rateing").val(reatnum);
+      });
+      $("#st4").click(function () {
+        $(".retingstarget").css("color", "#c4c2cb");
+        $("#st1, #st2, #st3, #st4").css("color", "#ff5421");
+        var reatnum = $(this).attr("data-number");
+        $("#rateing").val(reatnum);
+      });
+      $("#st5").click(function () {
+        $(".retingstarget").css("color", "#c4c2cb");
+        $("#st1, #st2, #st3, #st4, #st5").css("color", "#ff5421");
+        var reatnum = $(this).attr("data-number");
+        $("#rateing").val(reatnum);
+      });
 
         //  $("#reviewform").on('submit', function () {
         //     event.preventDefault();

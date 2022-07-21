@@ -1,5 +1,5 @@
 body{
-	background-color: #0b0d1f;
+	background-color: rgb(0, 0, 0);
 	font-family: 'Open Sans', sans-serif;
 }
 .banner{
@@ -26,14 +26,14 @@ body{
   /* font-family: 'Staatliches', cursive; */
  -webkit-animation: bounce .4s ease infinite alternate;
  color: white;
- text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 rgb(205, 201, 201), 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 30%), 0 3px 5px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 20%), 0 20px 20px rgb(0 0 0 / 15%);
+ text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 1px 0 rgb(205, 201, 201), 0 1px 0 #b9b9b9, 0 2px 0 #aaa, 0 6px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%), 0 1px 2px rgb(0 0 0 / 30%), 0 2px 2px rgb(0 0 0 / 20%), 0 2px 2px rgb(0 0 0 / 25%), 0 2px 2px rgb(0 0 0 / 2%), 0 2px 2px rgb(0 0 0 / 15%);
 	
 	 /* color: transparent;
 	 font-weight: 600; */
 }
 
 .productsection{
-	background-color: #0b0d1f;
+	background-color: rgb(0, 0, 0);
 }
 
 .cardheadtext{
@@ -60,7 +60,7 @@ body{
 }
 
 .logomap{
-	width: 17em;
+	width: 15em;
 	height: 2.1em;
 }
 
@@ -101,6 +101,19 @@ body{
 	color: #229ED9;
 }
 
+/* .bg-dark {
+	--bs-bg-opacity: .1 !important;
+	background-color: rgb(0, 0, 0, 0.1) !important;
+} */
+
+.topbar-bg{
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.topbar-bg-offset {
+	background-color: rgba(0, 0, 0, 1);
+}
+
 .form-control:focus {
 	border-color: #775d77;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(94, 76, 94, 0.5);
@@ -132,6 +145,17 @@ body{
 		height: auto;
 	}
 
+}
+
+@media only screen and (min-width: 359px) and (max-width: 460px) {
+	.profontsize {
+		font-size: 10px;
+	}
+
+	.logomap {
+		width: 12em;
+		height: 2em;
+	}
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -178,7 +202,7 @@ body{
 }
 
 .navshadow{
-	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 2px 3px 0 rgba(3, 3, 3, 0.2), 0 4px 10px 0 rgba(3, 3, 3, 0.19);
 }
 
 @keyframes manue {
@@ -196,12 +220,15 @@ body{
 }
 
 .cardbackground{
-	background-color: #131423;
+	background-color: #141414;
 }
 
 
 .footer{
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(5, 5, 5);
+}
+.footer2 {
+	background-color: rgb(3, 3, 3);
 }
 /* -------------------------------------------catagory-page-css------------------------------------------- */
 .catagory-left{
@@ -439,7 +466,6 @@ textarea{
 	list-style: none;
 	display: flex;
 	justify-content: space-evenly;
-	border: 1px dotted #fff;
 	padding: 10px;
 }
 .row-1 li{
@@ -495,7 +521,6 @@ textarea{
 	border-radius: 10px;
 }
 .cart-bottom-content{
-	border: 1px dotted #fff;
 	padding: 20px;
 }
 .cart-bottom h3{
@@ -621,7 +646,18 @@ textarea{
 	display: flex;
 	justify-content: space-evenly;
 }
+
+.coin-img2 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0px 5px;
+}
 .coin-img li{
+	list-style: none;
+	width: 40px;
+}
+
+.coin-img2 li {
 	list-style: none;
 	width: 40px;
 }
@@ -629,8 +665,15 @@ textarea{
 	width:100%;
 	display: inline-block;
 }
+
+.coin-img2 img {
+	width: 100%;
+	display: inline-block;
+}
+
+
 .bit-coin{
-	padding-left: 2rem;
+	padding-left: 0rem;
 }
 .bit-coin p{
 	color: #fff;
