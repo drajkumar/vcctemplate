@@ -15,8 +15,8 @@
   </head>
   <body>
 
-  <header class="banner position-sticky top-0" style="z-index: 101;">
-    <nav class="navbar navbar-expand-lg bg-dark position-sticky p-4 top-0 start-0" style="--bs-bg-opacity: .4;">
+  <header class="position-sticky top-0" style="z-index: 101;">
+    <nav class="navbar navbar-expand-lg topbar-bg position-sticky p-4 top-0 start-0">
       <div class="container">
         
         <a class="text-white logomap mt-1" href="index.html"><img class="w-50" src="./frontend/img/Logo.svg"></a>
@@ -37,9 +37,9 @@
                 <i class="bi bi-grid-1x2-fill"></i> Category
               </a>
               <ul class="dropdown-menu dropdown-menu-dark rounded-0" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="category.html">Action</a></li>
+                <li><a class="dropdown-item" href="category.html">Another action</a></li>
+                <li><a class="dropdown-item" href="category.html">Something else here</a></li>
             
               </ul>
             </li>
@@ -68,7 +68,7 @@
 
 
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">
+              <a class="nav-link text-white" href="cart.html">
                 
                 <i class="bi bi-bag text-white"></i>
                 <sup class="text-white">3</sup>
@@ -104,16 +104,15 @@
   <section class="breadcum py-4">
     <div class="container">
       <div class="row text-center">
-        <h1 class="text-white">Blog Details</h1>
-        <p class="text-white"><a class="cata-h"href="#">Home</a><span class="cata-h2">/</span>Blog</p>
+        <h1 class="text-white mt-3">Blog Details</h1>
       </div>
     </div>
   </section>
 
   <div class="blog-section">
     <div class="container">
-        <div class="row ">
-            <div class=" col-lg-8 blog-s-left">
+        <div class="row">
+            <div class="col-lg-9 order-1 order-sm-2 blog-s-left">
                 <div class="blog-p">
                     <img src="./frontend/img/Best-Cloud-Account-f.png" alt="">
                 </div>
@@ -153,7 +152,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-4 blog-right">
+            <div class="col-lg-3 order-0 order-sm-2 blog-right">
                 <h5>Catagories</h5>
                 <ul class="cata-list">
                     <li><a href="#">Advertising accounts</a></li>
@@ -185,25 +184,64 @@
     </div>
   </div>
 
+  <div class="container">
+    <div class="row mb-5">
+      <h2 class="text-center text-white">Related Blog</h2>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+          <img src="frontend/blog/blogone.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-white">Card title</h5>
+            <p class="card-text text-white">$20.00
+            </p>
+            <a href="blog-s-p.html" class="nav-link text-white"><i class="bi bi-eye"></i> View more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+          <img src="frontend/blog/blogone.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-white">Card title</h5>
+            <p class="card-text text-white">$20.00
+            </p>
+            <a href="blog-s-p.html" class="nav-link text-white"><i class="bi bi-eye"></i> View more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <div class="card mt-4 cardbackground rounded-0" style="width: 100%;">
+          <img src="frontend/blog/blogone.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-white">Card title</h5>
+            <p class="card-text text-white">$20.00
+            </p>
+            <a href="blog-s-p.html" class="nav-link text-white"><i class="bi bi-eye"></i> View more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   
 
     <footer class="footer">
-      <div class="container mt-3">
+      <div class="container mt-1 py-5">
         <div class="row">
-          <div class="col-md-3 mt-5 text-center">
+          <div class="col-md-3 text-center">
             <img class="w-50 mt-3" src="frontend/img/Logo.svg">
             <ul class="navbar-nav text-center">
               <li class="nav-item mt-2">
                 <a class="text-white text_dcaretion" href="#">Email: test@email.com</a>
               </li>
-              <li class="nav-item mt-2">
+              <li class="nav-item mt-1">
                 <a class="text-white text_dcaretion" href="#">Tel: +9823457238957</a>
               </li>
-              
+    
             </ul>
             <div class="text-center" role="search">
-            
+    
               <a href="#" class="text_dcaretion fs-4 me-2">
                 <i class="bi bi-whatsapp whatsappicon"></i>
               </a>
@@ -215,10 +253,10 @@
               </a>
             </div>
           </div>
-
-          <div class="col-md-3 mt-4">
-            <h4 class="text-center text-white mt-4">Our Services</h4>
-            <ul class="navbar-nav mt-4 text-center">
+    
+          <div class="col-md-3">
+            <h5 class="text-center text-white mt-2 p-0">OUR SERVICES</h5>
+            <ul class="navbar-nav text-center">
               <li class="nav-item">
                 <a class="text-white text_dcaretion" href="#">Ads accounts</a>
               </li>
@@ -239,74 +277,83 @@
               </li>
             </ul>
           </div>
-
-
-          <div class="col-md-3 mt-4">
-            <h4 class="text-center text-white mt-4">Information</h4>
-            <ul class="navbar-nav mt-4 text-center">
+    
+    
+          <div class="col-md-3">
+            <h5 class="text-center text-white mt-2">INFORMATION</h5>
+            <ul class="navbar-nav text-center">
               <li class="nav-item">
                 <a class="text_dcaretion text-white" href="#">Help & FAQ</a>
               </li>
               <li class="nav-item">
                 <a class="text_dcaretion text-white" href="#">Refund-Policy</a>
               </li>
-              
+    
             </ul>
           </div>
-
-          <div class="col-md-3 mt-4">
-            <h4 class="text-center text-white mt-4">Quick Link</h4>
-            <ul class="navbar-nav mt-4 text-center">
-              <li class="nav-item">
-                <a class="text_dcaretion text-white" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="text_dcaretion text-white" href="#">Product</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="text_dcaretion text-white" href="#">Contact</a>
-              </li>
-          
-            </ul>
+    
+          <div class="col-md-3">
+            <h5 class="text-center text-white mt-2">PAYMENT METHOD</h5>
+            <div class="bit-coin">
+              <div class="coin-img2 justify-content-center">
+                <li><img src="./frontend/img/bitcoin.png" alt=""></li>
+                <li><img src="./frontend/img/bitcoincash.png" alt=""></li>
+                <li> <img src="./frontend/img/dai.png" alt=""></li>
+                <li> <img src="./frontend/img/dogecoin.png" alt=""></li>
+                <li><img src="./frontend/img/ethereum.png" alt=""></li>
+                <li><img src="./frontend/img/litecoin.png" alt=""></li>
+    
+              </div>
+            </div>
           </div>
-        
-          <p class="text-center text-white mt-3">Copyrights@2022</p>
+    
+    
         </div>
+    
       </div>
+    
+      <div class="footer2 py-3">
+        <p class="text-center text-white mt-3">Myvcccard Copyrights@2022</p>
+      </div>
+    
+      </div>
+    
     </footer>
-
+    
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
       aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content bg-dark rounded-0">
           <form>
-          <div class="modal-header border-0">
-            <h5 class="modal-title" id="staticBackdropLabel">Search Product</h5>
-            <button type="button" class="bg-dark border-0" data-bs-dismiss="modal"><i class="bi bi-x-lg fs-3 text-white"></i></button>
-          </div>
-          <div class="modal-body border-0">
-            <div class="input-group input-group-lg border-0">
-              <input type="text" class="form-control bg-dark border-0 rounded-0" name="searchproduct" placeholder="Search Product">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="staticBackdropLabel">Search Product</h5>
+              <button type="button" class="bg-dark border-0" data-bs-dismiss="modal"><i
+                  class="bi bi-x-lg fs-3 text-white"></i></button>
             </div>
-            
-          </div>
-          <div class="modal-footer border-0">
-            <button type="button" class="btn btn-secondary rounded-0" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-secondary rounded-0"><i class="bi bi-search text-white"></i> Search</button>
-          </div>
+            <div class="modal-body border-0">
+              <div class="input-group input-group-lg border-0">
+                <input type="text" class="form-control bg-dark border-0 rounded-0" name="searchproduct"
+                  placeholder="Search Product">
+              </div>
+    
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary rounded-0" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary rounded-0"><i class="bi bi-search text-white"></i>
+                Search</button>
+            </div>
           </form>
         </div>
       </div>
     </div>
-
     
-
     
-    <script src="frontend/js/bootstrap.bundle.min.js" ></script>
+    
+    
+    <script src="frontend/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-      $(document).ready(function(){
+      $(document).ready(function () {
         $(".navbar").addClass("navanimation");
         setTimeout(turnoffanimation, 2400)
       });
@@ -315,23 +362,28 @@
         $(".navbar").removeClass("navanimation");
       }
       $(window).scroll(function () {
-          var scroll = $(window).scrollTop();
-          if (scroll >=50) {
-            $(".navbar").addClass("navshadow");
-          }else{
-            $(".navbar").removeClass("navshadow");
-          }
-        
+        var scroll = $(window).scrollTop();
 
-          // if (scroll >=100) {
-          //   $(".navbar").addClass("navanimation");
-          // } else if(scroll <= 200) {
-          //   $(".navbar").removeClass("navanimation");
-          // }else{
-          //   $(".navbar").removeClass("navanimation");
-          // }
-        });
+        if (scroll >= 50) {
+          $(".navbar").addClass("navshadow");
+          $(".navbar").addClass("topbar-bg-offset");
+        } else if (Math.floor(scroll) < 50) {
+          $(".navbar").removeClass("navshadow");
+          $(".navbar").removeClass("topbar-bg-offset");
+
+        } else {
+          $(".navbar").removeClass("navshadow");
+          $(".navbar").removeClass("topbar-bg-offset");
+
+        }
+      });
+
+      if (Math.floor(window.pageYOffset) > 50) {
+        $(".navbar").addClass("navshadow");
+        $(".navbar").removeClass("topbar-bg-offset");
+      }
     </script>
-
-  </body>
-</html>
+    
+    </body>
+    
+    </html>

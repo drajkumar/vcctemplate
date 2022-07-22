@@ -734,8 +734,8 @@ textarea{
 	padding: 10px;
 }
 .cata-list li{
-	line-height: 1.8;
-	border-bottom: 1px dotted #fff;
+	line-height: 1.2;
+	/* border-bottom: 1px dotted #fff; */
 	
 }
 .cata-list li a{
@@ -757,8 +757,8 @@ textarea{
 	padding: 10px;
 }
 .recent-list li{
-	line-height: 1.8;
-	border-bottom: 1px dotted #fff;
+	line-height: 1.3;
+	/* border-bottom: 1px dotted #fff; */
 }
 .recent-list li a{
 	display: inline-block;
