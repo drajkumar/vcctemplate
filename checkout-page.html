@@ -47,7 +47,7 @@
               <a class="nav-link text-white" href="#"><i class="bi bi-box"></i> Product</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link text-white" href="#"><i class="bi bi-envelope"></i> Contact</a>
+              <a class="nav-link text-white" href="contact.html"><i class="bi bi-envelope"></i> Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="blog.html"><i class="bi bi-justify"></i> Blog</a>
@@ -59,8 +59,8 @@
                 aria-expanded="false"><i class="bi bi-person-fill"></i></a>
                 <ul class="dropdown-menu dropdown-menu-dark rounded-0" aria-labelledby="navbarDropdown2">
                   <li class=""><a class="dropdown-item text-white" href="#"><i class="bi bi-person-fill"></i> Username</a></li>
-                  <li><a class="dropdown-item text-white" href="#"><i class="bi bi-arrow-bar-right"></i> Login</a></li>
-                  <li><a class="dropdown-item text-white" href="#"><i class="bi bi-arrow-bar-up"></i> Register</a></li>
+                  <li><a class="dropdown-item text-white" href="login.html"><i class="bi bi-arrow-bar-right"></i> Login</a></li>
+                  <li><a class="dropdown-item text-white" href="register.html"><i class="bi bi-arrow-bar-up"></i> Register</a></li>
                   <li><a class="dropdown-item text-white" href="#"><i class="bi bi-arrow-bar-left"></i> Log out</a></li>
                 
                 </ul>
@@ -102,29 +102,32 @@
   </header>
 
 <section class="check-out-section">
+<form>
 <div class="container">
     <div class="row">
+      
         <h2 class="text-white text-center py-4 Checkout">Checkout</h2>
-        <div class="col-lg-7 check-left">
+        <div class="col-lg-7 check-left contact-form">
             <h3>Biling-address</h3>
-            <div class="name mb-3">
+            
+            <div class="name mb-3 form-group">
                 <label for="#">Name:</label>
                 <input type="text" class="form-control rounded-0" name="name" placeholder="Enter Name">
             </div>
-            <div class="email mb-3">
+            <div class="email mb-3 form-group">
                 <label for="">
                     Email:
                 </label>
                 <input type="email" class="form-control rounded-0" name="email" placeholder="Enter Email">
             </div>
-            <div class="name mb-3">
+            <div class="name mb-3 form-group">
               <label for="#">Phone:</label>
               <input type="text" class="form-control rounded-0" name="phone" placeholder="Enter Phone">
             </div>
-            <div class="add-information">
+            <div class="add-information form-group">
                 <h4>Additional information</h4>
                 <label for="#">Oder notes (optional)</label>
-                <textarea class="form-control rounded-0" name="note" rows="3" placeholder="Notes about your order"></textarea>
+                <textarea class="form-control rounded-0" name="note" rows="6" placeholder="Notes about your order"></textarea>
             </div>
         </div>
         <div class="col-lg-5 check-right py-5">
@@ -167,8 +170,10 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div>
+</form>
 </section>
   
 
@@ -279,7 +284,7 @@
           </div>
           <div class="modal-body border-0">
             <div class="input-group input-group-lg border-0">
-              <input type="text" class="form-control bg-dark border-0 rounded-0" name="searchproduct" placeholder="Search Product">
+              <input type="text" class="form-control bg-dark border-0 rounded-0 text-white" name="searchproduct" placeholder="Search Product">
             </div>
             
           </div>

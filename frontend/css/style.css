@@ -807,3 +807,51 @@ textarea{
 .des-1{
 	padding: 20px 0;
 }
+
+.contact-form .form-group input[type="text"],
+.contact-form .form-group input[type="password"],
+.contact-form .form-group input[type="tel"],
+.contact-form .form-group input[type="email"],
+.contact-form .form-group input[type="phone"],
+.contact-form .form-group select {
+	position: relative;
+	display: block;
+	width: 100%;
+	line-height: 20px;
+	padding: 10px 20px;
+	color: #888888;
+	height: 60px;
+	font-size: 16px;
+	background: #080808;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	transition: all 300ms ease;
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.contact-form .form-group textarea{
+	position: relative;
+	display: block;
+	width: 100%;
+	line-height: 20px;
+	padding: 10px 20px;
+	color: #888888;
+	height: auto;
+	font-size: 16px;
+	background: #080808;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	transition: all 300ms ease;
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+button,
+input {
+	overflow: visible;
+}
