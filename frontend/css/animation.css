@@ -4,20 +4,19 @@
         align-items: center;
         position: relative;
         width: 100%;
-        height: 100vh;
     }
     .animation-wrapper {
         width: 60%;
-        padding-bottom: 55%;
+        padding-bottom: 80%;
     }
 
     .sphere-animation {
         position: absolute;
-        top: 50%;
+        top: 30%;
         left: 50%;
         width: 50%;
         height: 50%;
-        margin: -250px 0 0 -290px;
+        margin: -150px 0 0 -290px;
     }
 
     .sphere path {
@@ -34,12 +33,17 @@
     } */
 
 @media only screen and (min-width: 360px){
+    .animation-wrapper {
+        width: 50%;
+        padding-bottom: 45%;
+    
+    }
     .sphere-animation {
         position: absolute;
-        top: 70%;
+        top: 50%;
         left: 50%;
         width: 580px;
-        height: 100px;
+        height: 450px;
         margin: -250px 0 0 -290px;
     }
 
@@ -49,6 +53,10 @@
 }
 
 @media only screen and (min-width: 460px){
+    .animation-wrapper {
+        width: 50%;
+        padding-bottom: 45%;
+    }
     .sphere-animation {
         position: absolute;
         top: 30%;
@@ -64,6 +72,10 @@
 }
 
 @media only screen and (min-width: 576px) {
+    .animation-wrapper {
+        width: 50%;
+        padding-bottom: 45%;
+    }
     .sphere-animation {
         position: absolute;
         top: 35%;
@@ -78,6 +90,29 @@
     }
 }
 @media only screen and (min-width: 768px) {
+    .animation-wrapper {
+        width: 50%;
+        padding-bottom: 45%;
+    }
+    .sphere-animation {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        width: 580px;
+        height: 550px;
+        margin: -250px 0 0 -290px;
+    }
+
+    .sphere path {
+        stroke-width: .4px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .animation-wrapper {
+        width: 50%;
+        padding-bottom: 45%;
+    }
     .sphere-animation {
         position: absolute;
         top: 40%;
@@ -92,33 +127,18 @@
     }
 }
 
-@media only screen and (min-width: 992px) {
-    .sphere-animation {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 580px;
-        height: 580px;
-        margin: -250px 0 0 -290px;
-    }
-
-    .sphere path {
-        stroke-width: .4px;
-    }
-}
-
 @media only screen and (min-width: 1200px) {
-    /* .animation-wrapper {
+    .animation-wrapper {
         width: 50%;
-        padding-bottom: 55%;
-    } */
+        padding-bottom: 45%;
+    }
     .sphere-animation {
         position: absolute;
-        top: 50%;
+        top: 35%;
         left: 50%;
         width: 580px;
         height: 500px;
-        margin: -230px 0 0 -290px;
+        margin: -200px 0 0 -290px;
     }
 
     .sphere path {
@@ -126,14 +146,14 @@
     }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (min-width: 1400px) {
     .animation-wrapper {
         width: 60%;
-        padding-bottom: 55%;
+        padding-bottom: 60%;
     }
     .sphere-animation {
         position: absolute;
-        top: 80%;
+        top: 45%;
         left: 50%;
         width: 580px;
         height: 580px;
